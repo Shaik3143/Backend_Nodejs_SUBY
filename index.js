@@ -28,7 +28,7 @@ app.use('/product',productRoutes);
 app.use('/uploads', express.static('uploads'));
 
 app.use('/home', (req, res) => {
-    res.send("<h1>Welcome to Suby</h1>");
+    res.send("<h1>Welcome to SuBY</h1>");
 });
 
 app.listen(PORT, () => {
